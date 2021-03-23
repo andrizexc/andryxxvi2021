@@ -1,0 +1,273 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    background: #000;
+    color: #fff;
+}
+
+.header{
+    padding: 150px 28px 100px 28px;
+}
+.header h1{
+    font-family: NM-R;
+    font-size: 60px;
+    padding-top: 50px;
+}
+
+.header .menu-artikel{
+    margin-top: 50px;
+    padding: 0px 28px;
+}
+.header a{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-left: none;
+    border-right: none;
+}
+.header a h2{
+    font-family: SM-R;
+    font-size: 31.5px;
+    padding-top: 7px;
+}
+.header a img{
+    max-width: 30px;
+    height: 30px;
+    background: #f94e4e;
+    padding: 10px 8px;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+.artikel{
+    padding: 200px 28px 0px 28px;
+}
+.artikel h2{
+    font-family: NM-R;
+    font-size: 60px;
+}
+
+.artikel-1 img{
+    width: 100%;
+    height: auto;
+}
+
+.artikel-1 .content-artikel-1{
+    margin-top: 100px;
+    padding-right: 50px;
+    font-family: Helv;
+    font-size: 20px;
+}
+
+.artikel-1 h2{
+    font-family: NM-R;
+    font-size: 40.8px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.artikel-2 .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.artikel-2 .content-statistik{
+    padding-left: 0;
+    padding-right: 0;
+    background: #f94e4e;
+}
+.artikel-2 .content-statistik div{
+    border: 1px solid #fff;
+}
+.artikel-2 h4{
+    font-family: NM-R;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.artikel-2 p{
+    font-family: SM-R;
+    font-size: 18px;
+}
+.artikel-2 .content-statistik h1{
+    font-family: NM-U;
+    font-size: 56px;
+    padding-bottom: 50px;
+}
+.artikel-2 .content-statistik h5{
+    font-family: SM-B;
+    padding-top: 12.8px;
+}
+
+.artikel-2 .content-artikel-2{
+    margin-top: 100px;
+    padding-right: 50px;
+    font-family: Helv;
+    font-size: 20px;
+    padding-left: 0px !important;
+}
+
+.artikel-2 .caption-artikel-2 h2{
+    font-family: NM-R;
+    font-size: 60px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+.artikel-4{
+    margin-bottom: 100px;
+}
+.artikel-4 .swiper-container {
+    width: 100%;
+    margin-top: 100px;
+}
+.artikel-4 .swiper-container img{
+    width: 250px;
+    margin-right: 50px;
+}
+.artikel-4 .swiper-container .img-slider{
+    width: 200px;
+    margin-top: 150px;
+    margin: 150px 10px 0px 10px;
+}
+.artikel-4 .swiper-container .content-slider-artikel{
+    margin-top: 50px;
+}
+.artikel-4 .swiper-container .content-slider-artikel h4{
+    font-family: SM-B;
+    font-size: 38.7px;
+    margin-bottom: 100px;
+}
+.artikel-4 .swiper-container .content-slider-artikel h5{
+    font-family: NM-U;
+    font-size: 22px;
+    margin-top: 100px;
+}
+.artikel-4 .swiper-container .content-slider-artikel p{
+    padding-right: 50px;
+    font-family: Helv;
+    font-size: 20px;
+}
+.artikel-4 .swiper-container .portofolio-artikel{
+    margin-top: 50px;
+}
+.artikel-4 .swiper-container .portofolio-artikel h4{
+    text-align: right;
+    font-family: SM-B;
+    font-size: 38.7px;
+    margin-bottom: 100px;
+}
+.artikel-4 .swiper-container .portofolio-artikel p{
+    font-family: SM-R;
+}
+.artikel-4 .swiper-container .portofolio-artikel  .img-bahan-foto-2627{
+    width: 100%;
+}
+.artikel-4 .swiper-container .portofolio-artikel  .img-bahan-foto-2524{
+    width: 70%;
+}
+.artikel-4 .swiper-container .portofolio-artikel  .img-bahan-foto-2829{
+    width: 55%;
+}
+.artikel-4 .swiper-container .portofolio-artikel .col-md-12{
+    margin-bottom: 30px;
+}
+
+
+.artikel-4 .btn-swiper .swiper-prev{
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-right: 0.5px solid #fff;
+    height: 60px;
+}
+.artikel-4 .btn-swiper .swiper-next{
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-left: 0.5px solid #fff;
+    height: 60px;
+}
+.artikel-4 .btn-swiper{
+    padding: 0px 28px;
+}
+.artikel-4 .btn-swiper .col-md-6{
+    height: 60px;
+}
+
+.artikel-4 .btn-prev{
+    color: #fff;
+    float: left;
+}
+.artikel-4 .btn-next{
+    color: #fff;
+    float: right;
+}
+.artikel-4 .two-swiper{
+    margin-top: 10px;
+    font-family: SM-R;
+    font-size: 24px;
+}
+.artikel-4 .two-swiper img{
+    max-width: 50px;
+    background: #f94e4e;
+    padding: 12px 10px;
+    border-radius: 100%;
+    margin-top: -6px;
+}
+
+
+
+.dokumen-potensi {
+    margin-bottom: 00px;
+    padding: 170px 28px 0px 28px;
+}
+
+.dokumen-potensi h1{
+    font-family: NM-R;
+    font-size: 60px;
+}
+
+.dokumen-potensi .about-dokumen-potensi{
+    position: absolute;
+    bottom: -10px;
+    font-family: Helv;
+    padding: 0;
+}
+
+.dokumen-potensi .doc-profil{
+    margin-top: 50px;
+    padding-right: 32px;
+    
+}
+.dokumen-potensi .text-profil{
+    color: #000;
+    background: #fff;
+    font-family: NM-U;
+    font-size: 17px;
+    margin: 0;
+    width: 110px;
+    padding-top: 2px;
+    padding-left: 10px;
+    margin-left: -15px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 100px;
+}
+.dokumen-potensi a{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+}
+.dokumen-potensi a h2{
+    font-family: SM-B;
+    font-size: 28px;
+    padding-top: 7px;
+}
+.dokumen-potensi a img{
+    max-width: 30px;
+    height: 30px;
+    background: #f94e4e;
+    padding: 10px 8px;
+    border-radius: 100%;
+    margin-top: 10px;
+}

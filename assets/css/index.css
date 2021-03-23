@@ -1,0 +1,189 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    background: #ffffff;
+    color: #000000;
+}
+.marex img {
+    position: absolute;
+    top: 222px;
+    right: 120px;
+    width: 60%;
+}
+.content-work {
+    background-color: #000000;
+}
+.header{
+    height: 100%;
+    padding: 30px;
+}
+.header-atas{
+    position: absolute;
+    top: 0;
+    right: 270px;
+    color: #f94e4e;
+}
+.header-atas h1{
+    padding-top: 20px;
+    font-family: NM-L;
+    font-size: 40px;
+    margin-left: 7px;
+}
+.header-bawah{
+    position: absolute;
+    bottom: 200px;
+    left: 200px;
+    color: #000000;
+}
+.header-bawah img{
+    padding-top: 20px;
+    margin-left: -7px;
+    width: 100%;
+}
+.header-bawah .hi-im{
+    padding-top: 10px;
+    font-size: 80px;
+    font-family: SM-B;
+
+}
+.header-bawah .hi-ix{
+    margin-top: -20px;
+    font-size: 80px;
+    font-family: AD-X;
+
+}
+.header-bawah #tagline{
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: AD-X;
+    color: #f94e4e;
+}
+
+
+body{
+    padding-right: 0px !important;
+}
+
+@-webkit-keyframes border {
+    from {
+        bottom: 2px;
+        top: 2px;
+    }
+    to {
+        bottom: -8px;
+        right: -1px;
+    }
+}
+
+
+
+.rangkaian-hidup {
+    margin-bottom: 100px;
+    margin-top: 
+    padding: 0px 45px;
+    
+}
+.rangkaian-hidup .box-rangkaian-hidup{
+   
+    border-left: none;
+    border-right: none;
+    
+}
+.bar-miring {
+    background-color: #ffffff;
+    padding: 12px;
+    left: 0;
+    margin-left: -22px;
+    margin-top: -1px;
+    position: absolute;
+}
+.rangkaian-hidup h1{
+    font-family: AD-EX;
+    margin-top: 52px;
+    font-size: 40px;
+    color: #ffffff;
+}
+.rangkaian-hidup .about-rangkaian-hidup{
+    position: absolute;
+    bottom: 0;
+    font-family: Helv;
+    padding: 0;
+    color: #ffffff;
+}
+.rangkaian-hidup .baca-lengkap{
+    font-family: NM-R;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+}
+.info {
+    color: #fff;
+    margin-top: 42px;
+}
+.name-work {
+    color: aliceblue;
+    font-size: 32px;
+    font-family: AD-X;
+}
+.date-work {
+    color: #f94e4e;
+    font-family: AD-EX
+}
+.dokumen-potensi {
+    margin-bottom: 100px;
+    padding: 0px 28px;
+}
+
+.dokumen-potensi h1{
+    font-family: NM-R;
+    font-size: 60px;
+}
+
+.dokumen-potensi .about-dokumen-potensi{
+    position: absolute;
+    bottom: -10px;
+    font-family: Helv;
+    padding: 0;
+}
+
+.dokumen-potensi .doc-profil{
+    margin-top: 50px;
+    padding-right: 32px;
+    
+}
+.dokumen-potensi .text-profil{
+    color: #000;
+    background: #fff;
+    font-family: NM-U;
+    font-size: 17px;
+    margin: 0;
+    width: 110px;
+    padding-top: 2px;
+    padding-left: 10px;
+    margin-left: -15px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 100px;
+}
+.dokumen-potensi a{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+}
+.dokumen-potensi a h2{
+    font-family: SM-B;
+    font-size: 28px;
+    padding-top: 7px;
+}
+.dokumen-potensi a img{
+    max-width: 30px;
+    height: 30px;
+    background: #f94e4e;
+    padding: 10px 8px;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+.other-works {
+    display: inline-block;
+}

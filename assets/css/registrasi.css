@@ -1,0 +1,79 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    background: #ffffff;
+    color: #000000;
+}
+
+.header{
+    padding: 80px 28px 0px 28px;
+}
+.header h1{
+    font-family: NM-R;
+    font-size: 60px;
+    padding-top: 50px;
+}
+.header p{
+    font-family: Helv;
+    font-size: 16px;
+}
+
+.form{
+    padding: 0px 28px 100px 28px;
+}
+.form .row .col-md-12{
+    padding-left: 0px;
+}
+.form .row .col-md-5{
+    padding: 0px 28px;
+}
+.form .row .col-md-7{
+    padding: 0px 28px;
+}
+.form label{
+    font-family: SM-R;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.form input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    color: #000000;
+}
+.tool-kirim {
+    width: 252px;
+    padding: 22px;
+}
+.kirm-box {
+    display: inline-block;
+    padding-top: 255px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid;
+}
+.back-btn {
+    width: 300px;
+    height: 50px;
+    float: right;
+    margin-top: 12px;
+    font-size: 18px;
+    bottom: 1px;
+    font-family: SM-R;
+    background-color: #f94e4e;
+    border-radius: 0px;
+}
+.mmm {
+    width: 50%;
+}
+.mx {
+    float: right;
+    width: 500px;
+    color: #000000;
+}
+.mx a {
+    padding: 12px;
+    color: #000000;
+    font-family: SM-B;
+}
+    
+}

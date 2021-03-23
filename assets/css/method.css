@@ -1,0 +1,259 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    background: #ffffff;
+    color: #000000;
+    overflow: auto !important;
+}
+.left-column{
+    width: 33%;
+    height: 400px;
+    position: absolute;
+    border: 1px solid ;
+    float: left;
+    left: 0;
+    cursor: pointer;
+}
+.center-column{
+    width: 34%;
+    height: 400px;
+    position: absolute;
+    border: 1px solid ;
+    float: inherit;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.right-column{
+  position: absolute;
+  width: 33%;
+  height: 400px;
+ border: 1px solid ;
+  float: right;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+.left-column2{
+    width: 33%;
+    height: 400px;
+    position: absolute;
+    border: 1px solid ;
+    float: left;
+    left: 0;
+    cursor: pointer;
+}
+.center-column2{
+    width: 34%;
+    height: 400px;
+    position: absolute;
+    border: 1px solid ;
+    float: inherit;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.right-column2{
+  position: absolute;
+  width: 33%;
+  height: 400px;
+ border: 1px solid ;
+  float: right;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+.left-column3{
+    width: 33%;
+    height: 400px;
+    position: absolute;
+    border: 1px solid ;
+    float: left;
+    left: 0;
+    cursor: pointer;
+}
+.center-column3{
+    width: 34%;
+    height: 400px;
+    position: absolute;
+    border: 1px solid ;
+    float: inherit;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.column2{
+    margin-top: 400px;
+}
+.column3{
+    margin-top: 800px;
+}
+       
+.metode-terapan {
+    padding: 200px 28px 0px 28px;
+    height: 2000px;
+}
+.metode-terapan h1{
+    font-family: NM-R;
+    font-size: 60px;
+}
+.metode-terapan .box-metode-terapan {
+    text-decoration: none;
+    color: #000000;
+    width:100%;
+    position: inherit;
+    margin: 0px !important;
+}
+
+
+
+.box-metode-terapan:before
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+.box-metode-terapan:after
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.metode-terapan .klik{
+    padding-top: 10px;
+    padding-left: 0px !important;
+    padding-right: 30px !important;
+    text-align: right;
+}
+
+.metode-terapan  h2{
+    font-family: SM-B;
+    padding: 10px 0px 0px 0px;
+    color: #f94e4e;
+}
+.metode-terapan  .klik{
+    font-family: SM-R;
+    color: red;
+    padding-top: 12px;
+    left: -30px;
+}
+
+
+.metode-video {
+    width: 0px;
+    cursor: pointer;
+    position: relative;
+    left: 58%;
+    top: 25%;
+    animation-duration: 1s;
+}
+.metode-videox {
+    width: 0px;
+    cursor: pointer;
+    position: relative;
+    left: -58%;
+    top: 25%;
+    animation-duration: 1s;
+}
+.metode-videoc {
+    width: 0px;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+    animation-duration: 1s;
+}
+
+.metode-video2 {
+    width: 0px;
+    cursor: pointer;
+    position: relative;
+    left: 58%;
+    top: 140%;
+    animation-duration: 1s;
+}
+.metode-videox2 {
+    width: 0px;
+    cursor: pointer;
+    position: relative;
+    left: -58%;
+    top: 145%;
+    animation-duration: 1s;
+}
+.metode-videoc2 {
+    width: 0px;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    top: 145%;
+    transform: translateX(-50%);
+    animation-duration: 1s;
+}
+
+.metode-videox3 {
+    width: 0px;
+    cursor: pointer;
+    position: relative;
+    left: -58%;
+    top: 265%;
+    animation-duration: 1s;
+}
+.metode-videoc3 {
+    width: 0px;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    top: 265%;
+    transform: translateX(-50%);
+    animation-duration: 1s;
+}
+
+@keyframes munculgambar{
+    0%{opacity: 0;}
+    90%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes hilanggambar{
+    0%{opacity: 1;}
+    10%{opacity: 0;}
+    100%{opacity: 0;}
+}
+
+.metode-terapan  .content-metode-terapan{
+    position: absolute;
+    bottom: 0;
+    width: 420px;
+    font-family: Helv;
+    padding: 12px;;
+}
+.metode-terapan .baca-lengkap{
+    font-family: NM-R;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    float: right;
+}
+.metode-terapan .baca-lengkap img{
+    width: 20px;
+}
+
+.Modalvideo{
+    background: rgba(0, 0, 0, 0.8);
+}
+.Modalvideo iframe{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.Modalvideo button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    background: transparent;
+    border: none;
+    font-size: 36px;
+}
