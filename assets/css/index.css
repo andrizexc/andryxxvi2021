@@ -42,16 +42,24 @@ html, body{
 }
 .header-bawah .hi-im{
     padding-top: 10px;
-    font-size: 80px;
+    font-size: 5em;
     font-family: SM-B;
 
 }
 .header-bawah .hi-ix{
     margin-top: -20px;
-    font-size: 80px;
+    font-size: 5em;
     font-family: AD-X;
 
 }
+.hi-zz{
+    font-size: 21px; 
+    font-family: AD-EX;
+    color: #e83232;
+    margin-top: 152px;
+}
+        
+    
 .header-bawah #tagline{
     margin-top: 50px;
     font-size: 20px;
@@ -187,3 +195,75 @@ body{
 .other-works {
     display: inline-block;
 }
+
+@media only screen and (max-width: 1298px) {
+  .bar-miring {
+   background-color: #ffffff;
+    padding: 12px;
+    left: 0;
+    margin-left: -22px;
+    margin-top: -1px;
+    position: absolute;
+}
+    .header-bawah{
+    position: absolute;
+    bottom: 200px;
+    left: 100px;
+    color: #000000;
+}
+    
+       @media only screen and (max-width: 1100px) {
+              .bar-miring{
+                display: none;
+
+            }
+            .arrxx {
+               width: 100%;
+           }
+  
+}
+    @media only screen and (max-width: 860px) {
+  .header-bawah .hi-im{
+    padding-top: 10px;
+    font-size: 4em;
+    font-family: SM-B;
+
+}
+        
+        
+        
+        
+.header-bawah .hi-ix{
+    margin-top: -20px;
+    font-size: 4em;
+    font-family: AD-X;
+
+}
+}
+    
+        @media only screen and (max-width: 634px) {
+  .header-bawah .hi-im{
+    padding-top: 10px;
+    font-size: 2em;
+    font-family: SM-B;
+
+}
+.header-bawah .hi-ix{
+    margin-top: -20px;
+    font-size: 2em;
+    font-family: AD-X;
+
+}
+            .hi-zz {
+                font-size:12px;;
+            }
+            .header-bawah{
+    position: absolute;
+    bottom: 200px;
+    left: 50px;
+    color: #000000;
+}
+}
+
+
+    
